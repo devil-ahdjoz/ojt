@@ -1,8 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { MantineReactTable, useMantineReactTable, type MRT_ColumnDef } from 'mantine-react-table';
 import './App.css';
-import { FaSearch } from 'react-icons/fa';
-import { IconUserPlus } from '@tabler/icons-react';
+import { IconUserPlus, IconSearch } from '@tabler/icons-react';
 
 type Person = {
   name: string;
@@ -161,7 +160,7 @@ const Example = () => {
                     placeholder=""
                     className="input-search"
                     />
-                    <FaSearch 
+                    <IconSearch 
                     className="icon-search"
                     size={15} />
                     <IconUserPlus
