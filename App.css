@@ -35,17 +35,18 @@
   }
   
   .input-search {
-    padding-left: 2rem;
+    padding-left: 3rem;
     padding-right: 3rem;
     border-radius: 5px;
     border: 1px solid #ccc;
     outline: none;
     height: 30px;
+    width: 150px;
   }
   
   .icon-search {
     position: absolute;
-    right: 18.7rem;
+    right: 19.8rem;
   }
   
   .icon-user-plus {
@@ -58,13 +59,13 @@
     text-align: center;
     margin-right: 10rem;
     margin-left: 10rem;
-    margin-top: 0;
+    font-family: 'Rubik', sans-serif;
+
   }
 
   .table {
-    margin: 3rem;
-    height: 60vh;
-    margin-top: 2rem;
+    margin: 2.5rem;
+    
   }
 
   .footer {
@@ -73,14 +74,16 @@
     padding: .9rem;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    height: 10px;
-    padding-top: .5rem;
+    height: 15px;
+    padding-top: .8rem;
+    font-size: small;
   }
 
   .page {
     position: fixed;
     left: 0;
     bottom: 0;
+    top: 0;
     width: 100%;
   }
   

@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import { MantineReactTable, useMantineReactTable, type MRT_ColumnDef } from 'mantine-react-table';
 import './App.css';
-import { FaSearch, FaUserPlus } from 'react-icons/fa';
+import { FaSearch } from 'react-icons/fa';
+import { IconUserPlus } from '@tabler/icons-react';
 
 type Person = {
   name: string;
@@ -29,7 +30,50 @@ const data: Person[] = [
     employeenum: '17-12305',
     phone: '0923-868-0978',
     update: '91 days ago',
-  },{
+  },
+  {
+    name: 'Arvin Padron',
+    employeenum: '17-12305',
+    phone: '0923-868-0978',
+    update: '91 days ago',
+  },
+  {
+    name: 'Arvin Padron',
+    employeenum: '17-12305',
+    phone: '0923-868-0978',
+    update: '91 days ago',
+  },
+  {
+    name: 'Arvin Padron',
+    employeenum: '17-12305',
+    phone: '0923-868-0978',
+    update: '91 days ago',
+  },
+  {
+    name: 'Arvin Padron',
+    employeenum: '17-12305',
+    phone: '0923-868-0978',
+    update: '91 days ago',
+  },
+  {
+    name: 'Arvin Padron',
+    employeenum: '17-12305',
+    phone: '0923-868-0978',
+    update: '91 days ago',
+  },
+  {
+    name: 'Arvin Padron',
+    employeenum: '17-12305',
+    phone: '0923-868-0978',
+    update: '91 days ago',
+  },
+  {
+    name: 'Arvin Padron',
+    employeenum: '17-12305',
+    phone: '0923-868-0978',
+    update: '91 days ago',
+  },
+  {
     name: 'Arvin Padron',
     employeenum: '17-12305',
     phone: '0923-868-0978',
@@ -77,9 +121,9 @@ const Example = () => {
   const table = useMantineReactTable({
     columns,
     data: newPerson ? [newPerson, ...data] : data,
-    enableTopToolbar: false,
+    
     enableStickyHeader: true,
-    mantineTableContainerProps: { sx: { maxHeight: '500px'} },
+    mantineTableContainerProps: { sx: { maxHeight: '370px'} },
     enableStickyFooter: true,
   });
 
@@ -120,7 +164,7 @@ const Example = () => {
                     <FaSearch 
                     className="icon-search"
                     size={15} />
-                    <FaUserPlus
+                    <IconUserPlus
                     className="icon-user-plus"
                     onClick={handleAddPerson}
                     size={40}
