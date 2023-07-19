@@ -152,7 +152,7 @@ const Example = () => {
             </h4>
             <h1 className="h1-welcome">
                 WELCOME!
-                <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center' }}>
+                <div className='super'>
                     <input
                     type="text"
                     value={searchTerm}

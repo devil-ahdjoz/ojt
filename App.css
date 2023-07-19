@@ -55,6 +55,12 @@
     cursor: pointer;
   }
 
+  .super {
+    margin-Left: auto; 
+    display: flex;
+    align-Items: center;
+  }
+
   p {
     text-align: center;
     margin-right: 10rem;
